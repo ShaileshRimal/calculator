@@ -1,0 +1,51 @@
+
+.element{
+    width:300px ;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.digits{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(52, 52, 52);
+    width: 50px;
+    display: inline-block;
+    font-size: 40px;
+    text-align: center;
+    padding: 2px;
+    margin: 4px;
+    border-radius: 5px;
+    color: rgb(3, 244, 244);
+}
+.body{
+    font-size: 50px;
+    height: 100vh;
+    background-color: black;
+    
+}
+.display{
+    color: rgb(3, 244, 244);
+    width: 247px;
+    display: inline-block;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+    margin: 4px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: right;
+
+}
+#erase{
+    font-size: 30px;
+    text-align: center;
+    width: 45px;
+    transform: translate(5px,55px);
+    background-color: rgb(127, 60, 60);
+}
+/* #equal{
+    width: 116px;
+} */
