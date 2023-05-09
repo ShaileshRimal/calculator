@@ -7,11 +7,12 @@ for (let i = 0; i < 15; i++) {
         if(nums[i].innerHTML=== '='){
             display.value=eval(expression);
             expression=display.value
-
+        display.focus()
         }
         else{
             expression+=nums[i].innerHTML;
         display.value=expression;
+            display.focus();
         }
         
         });
